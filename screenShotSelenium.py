@@ -8,7 +8,7 @@ import cv2
 
 class usando_unittest(unittest.TestCase):
 	def setUp(self):
-		self.driver = webdriver.Chrome(executable_path=r"C:\dchrome\chromedriver.exe")
+		self.driver = webdriver.Chrome()
 
 	def test_usando_opencv(self):
 		driver = self.driver
