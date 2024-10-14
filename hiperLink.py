@@ -9,5 +9,4 @@ time.sleep(5)
 encontrar_link = driver.find_element(By.LINK_TEXT, 'Learn PHP')
 encontrar_link.click()
 
-# Recuerda cerrar el navegador al final
 driver.quit()
