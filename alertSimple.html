@@ -6,7 +6,13 @@
   <body>
     <p>Error Faltal</p>
     <button name="alert" onclick="alertaFunction()">try it</button>
+    <button name="confirmar_alert" onclick="alertaFuncionSioNo()">
+      como tomamos este boton
+    </button>
     <script>
+      function alertaFuncionSioNo() {
+        confirm("presiona el boton");
+      }
       function alertaFunction() {
         alert("all it's bad");
       }
